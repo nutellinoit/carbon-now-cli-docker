@@ -1,0 +1,3 @@
+[submodule "carbon-now-cli"]
+	path = carbon-now-cli
+	url = https://github.com/mixn/carbon-now-cli.git
