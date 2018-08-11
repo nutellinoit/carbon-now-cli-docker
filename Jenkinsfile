@@ -7,7 +7,7 @@ node {
     }
 
     stage('Copy dir') {
-        sh "cp -r carbon-now-cli build_migrator/rootfs"
+        sh "cp -r carbon-now-cli build-docker/rootfs"
     }
 
     stage('Build image') {
