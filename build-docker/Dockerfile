@@ -8,5 +8,6 @@ WORKDIR /rootfs
 RUN rm .git
 RUN git init
 RUN npm install -g
+RUN npm install chromium -g
 WORKDIR /tmp
 ENTRYPOINT ["carbon-now"]
