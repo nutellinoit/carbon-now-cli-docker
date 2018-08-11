@@ -8,4 +8,5 @@ WORKDIR /rootfs
 RUN rm .git
 RUN git init
 RUN npm install -g
+WORKDIR /tmp
 ENTRYPOINT ["carbon-now"]
